@@ -20,6 +20,7 @@ export default function DarkMode() {
     <span
       style={{ cursor: "pointer", marginLeft: "20px" }}
       onClick={() => {
+        console.log("\n**************************clicked");
         let cookieValue = ("; " + document.cookie)
           .split("; mode=")
           .pop()
