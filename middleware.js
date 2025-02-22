@@ -17,7 +17,9 @@ export async function middleware(request) {
 
   if (request.nextUrl.pathname.startsWith("/write")) {
     if (session == null) {
-      return NextResponse.redirect("http://localhost:3000/api/auth/signin");
+      return NextResponse.redirect(
+        "https://apple-next-forum.vercel.app/api/auth/signin"
+      );
     }
   }
 
