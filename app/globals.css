@@ -74,3 +74,11 @@ a {
 .dark-mode .navbar a {
   color: white;
 }
+
+/* .light-mode .navbar {
+  background: white;
+  color: #222;
+}
+.light-mode .navbar a {
+  color: #222;
+} */

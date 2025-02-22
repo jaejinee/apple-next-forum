@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import ImgInputBtn from "./ImgInputBtn";
 
 export default function ImgInput() {
   let [src, setSrc] = useState("");
