@@ -4,8 +4,8 @@ import { getServerSession } from "next-auth";
 import ImgInput from "./ImgInput";
 
 export default async function Write() {
-  let session = await getServerSession(authOptions);
-  if (!session) return <div>로그인 먼저</div>;
+  // let session = await getServerSession(authOptions);
+  // if (!session) return <div>로그인 먼저</div>;
 
   return (
     <div className="p-20">
